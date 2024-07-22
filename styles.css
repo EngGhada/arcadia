@@ -1,0 +1,181 @@
+/* styles.css */
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    color: #00698f;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00698f;
+  }
+  
+  a:hover {
+    color: #0099cc;
+  }
+  
+  /* Navigation */
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Main Content */
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* Habitats */
+  
+  #habitats ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #habitats li {
+    width: 30%;
+    margin: 20px;
+  }
+  
+  #habitats a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #habitats a:hover {
+    background-color: #f7f7f7;
+    border-color: #ccc;
+  }
+  
+  /* Services */
+  
+  #services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #services li {
+    width: 30%;
+    margin: 20px;
+  }
+  
+  #services a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #services a:hover {
+    background-color: #f7f7f7;
+    border-color: #ccc;
+  }
+  
+  /* Avis */
+  
+  #avis ul {
+    list-style: disc;
+    padding: 20px;
+  }
+  
+  #avis li {
+    margin-bottom: 20px;
+  }
+  
+  #avis p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  #avis p.author {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
